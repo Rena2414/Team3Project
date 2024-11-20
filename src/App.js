@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import YaroslavProfile from "./components/YaroslavProfile";
 import IraProfile from "./components/IraProfile";
 import MykhailoProfile from "./components/MykhailoProfile";
 
@@ -8,7 +9,6 @@ import MykhailoProfile from "./components/MykhailoProfile";
 // тоді зверху цього файлу(App.js) вставляєте import ім'яProfile from "./components/ім'яProfile";
 // і основне, знизу в App() треба вставити <ім'яProfile />
 
-
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,7 @@ function App() {
       <div className="body-container">
       <IraProfile />
       <MykhailoProfile />
+      <YaroslavProfile />
       </div>
     </div>
   );
