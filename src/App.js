@@ -17,6 +17,7 @@ function App() {
       <IraProfile />
       <MykhailoProfile />
       <YaroslavProfile />
+      <AlinaProfile />
       </div>
     </div>
   );
