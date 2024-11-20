@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/Header";
 import Matrokhin from "./components/Matrokhin";
 import YaroslavProfile from "./components/YaroslavProfile";
 import IraProfile from "./components/IraProfile";
