@@ -1,6 +1,6 @@
 import "./App.css";
-import Header from "./components/Header";
 import Matrokhin from "./components/Matrokhin";
+import YaroslavProfile from "./components/YaroslavProfile";
 import IraProfile from "./components/IraProfile";
 import MykhailoProfile from "./components/MykhailoProfile";
 
@@ -8,7 +8,6 @@ import MykhailoProfile from "./components/MykhailoProfile";
 // основні параметри, фото для ави завантажуєте в папку public, має бути кругла пнгшка, я юзав цей сайт для обрізання - https://crop-circle.imageonline.co/
 // тоді зверху цього файлу(App.js) вставляєте import ім'яProfile from "./components/ім'яProfile";
 // і основне, знизу в App() треба вставити <ім'яProfile />
-
 
 function App() {
   return (
@@ -18,6 +17,7 @@ function App() {
       <Matrokhin/>
       <IraProfile />
       <MykhailoProfile />
+      <YaroslavProfile />
       </div>
     </div>
   );
