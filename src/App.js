@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import MykhailoProfile from "./components/MykhailoProfile";
+
 import Matrokhin from "./components/Matrokhin";
 
 
@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <Header />
       <div className="body-container">
-      <MykhailoProfile />
       <Matrokhin/>
       </div>
     </div>
