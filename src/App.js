@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import IraProfile from "./components/IraProfile";
 import MykhailoProfile from "./components/MykhailoProfile";
 
 // Короче, створюєте в папці components файл з назвою Ім'яProfile.js, код можете взяти з мене (MykhailoProfile.js), тоді мінєте 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="body-container">
+      <IraProfile />
       <MykhailoProfile />
       </div>
     </div>
