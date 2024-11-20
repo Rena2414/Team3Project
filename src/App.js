@@ -1,6 +1,8 @@
 import "./App.css";
 import Header from "./components/Header";
 import MykhailoProfile from "./components/MykhailoProfile";
+import Matrokhin from "./components/Matrokhin";
+
 
 // Короче, створюєте в папці components файл з назвою Ім'яProfile.js, код можете взяти з мене (MykhailoProfile.js), тоді мінєте 
 // основні параметри, фото для ави завантажуєте в папку public, має бути кругла пнгшка, я юзав цей сайт для обрізання - https://crop-circle.imageonline.co/
@@ -14,6 +16,7 @@ function App() {
       <Header />
       <div className="body-container">
       <MykhailoProfile />
+      <Matrokhin/>
       </div>
     </div>
   );
