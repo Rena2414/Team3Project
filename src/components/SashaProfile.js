@@ -2,7 +2,7 @@ import React from "react";
 import Body from "./Body";
 
 const SashaProfile = () => {
-    return <Body name="gëåêñàíäðà" position="Business analyst" photoSrc="/sashaa.png" />;
+    return <Body name="ÐžÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð°" position="Business analyst" photoSrc="/sashaa.png" />;
 };
 
 export default SashaProfile;
