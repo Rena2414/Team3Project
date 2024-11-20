@@ -1,6 +1,6 @@
 import React from "react";
 
-const Body = ({ name = "Matrokhin Serhiy", position = "Software Engineer", photoSrc = "/avatar-default.png" }) => {
+const Body = ({ name = "John", position = "Software Engineer", photoSrc = "/avatar-default.png" }) => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
