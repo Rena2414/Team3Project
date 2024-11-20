@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import Body from "./components/SashaProfile";
+import SashaProfile from "./components/SashaProfile";
 import Matrokhin from "./components/Matrokhin";
 import YaroslavProfile from "./components/YaroslavProfile";
 import IraProfile from "./components/IraProfile";
