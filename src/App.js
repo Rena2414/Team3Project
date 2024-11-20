@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Matrokhin from "./components/Matrokhin";
 import YaroslavProfile from "./components/YaroslavProfile";
 import IraProfile from "./components/IraProfile";
 import MykhailoProfile from "./components/MykhailoProfile";
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="body-container">
+      <Matrokhin/>
       <IraProfile />
       <MykhailoProfile />
       <YaroslavProfile />
