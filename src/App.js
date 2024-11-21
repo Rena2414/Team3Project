@@ -6,6 +6,7 @@ import Matrokhin from "./components/Matrokhin";
 import YaroslavProfile from "./components/YaroslavProfile";
 import IraProfile from "./components/IraProfile";
 import MykhailoProfile from "./components/MykhailoProfile";
+import ShowcaseProfile from "./components/ShowcaseProfile";
 
 function App() {
   return (
@@ -18,9 +19,11 @@ function App() {
       <MykhailoProfile />
       <YaroslavProfile />
       <AlinaProfile />
+      <ShowcaseProfile />
       </div>
     </div>
   );
 }
+
 
 export default App;
